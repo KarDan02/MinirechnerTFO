@@ -9,7 +9,6 @@ namespace MinirechnerTFO_KarasaniDaniel
     {
         static void Main(string[] args)
         {
-
             Console.BackgroundColor = ConsoleColor.White;
             Console.ForegroundColor = ConsoleColor.Black;
             Console.Clear();
@@ -26,7 +25,6 @@ namespace MinirechnerTFO_KarasaniDaniel
             
                 System.Console.Write("\nTippen Sie den Buchstaben der gewünschten Aufgabe ein und betätigen Sie die Enter-Taste: ");
 
-                
                 string Aufgabe;
 
                 Aufgabe = Console.ReadLine();
@@ -150,7 +148,6 @@ namespace MinirechnerTFO_KarasaniDaniel
                         }
                 }
             }
-
 
         }
 
