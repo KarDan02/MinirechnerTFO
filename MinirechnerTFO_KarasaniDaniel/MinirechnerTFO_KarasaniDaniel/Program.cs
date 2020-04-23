@@ -15,7 +15,8 @@ namespace MinirechnerTFO_KarasaniDaniel
             int Zahl2 = Convert.ToInt32(Console.ReadLine());
             //Console.WriteLine("Summe: "+Addiere(Zahl1, Zahl2));
             //Console.WriteLine("Differenz: "+Subtrahiere(Zahl1, Zahl2));
-            Console.WriteLine("Produkt: "+Multipliziere(Zahl1, Zahl2));
+            //Console.WriteLine("Produkt: "+Multipliziere(Zahl1, Zahl2));
+            Console.WriteLine("Quotient: "+Dividiere(Zahl1, Zahl2));
             Console.ReadKey();
         }
 
@@ -32,6 +33,11 @@ namespace MinirechnerTFO_KarasaniDaniel
         static int Multipliziere(int Zahl1, int Zahl2)
         {
             return (Zahl1 * Zahl2);
+        }
+
+        static int Dividiere(int Zahl1, int Zahl2)
+        {
+            return (Zahl1 / Zahl2);
         }
     }
 }
