@@ -9,15 +9,18 @@ namespace MinirechnerTFO_KarasaniDaniel
     {
         static void Main(string[] args)
         {
-            Console.Write("Zahl1: ");
+            Console.Write("1.Zahl: ");
             int Zahl1 = Convert.ToInt32(Console.ReadLine());
-
-            Console.Write("Zahl2: ");
+            Console.Write("2.Zahl: ");
             int Zahl2 = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("\n1.Zahl: "+Zahl1+"\n2.Zahl: "+Zahl2);
+            Console.WriteLine("Summe: "+Addiere(Zahl1, Zahl2));
 
             Console.ReadKey();
+        }
+
+        static int Addiere(int Zahl1, int Zahl2)
+        { 
+        return (Zahl1+Zahl2);
         }
     }
 }
